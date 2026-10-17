@@ -1,16 +1,19 @@
 {
   "name": "taste-skill",
-  "description": "Taste skill library for Claude Code — frontend design, image-to-code, and aesthetic skills",
+  "description": "Taste skill library for Claude — frontend design, image-to-code, and aesthetic skills",
   "owner": {
-    "name": "leonxlnx",
-    "email": "hello@tasteskill.dev"
+    "name": "osa822630-droid"
   },
   "plugins": [
     {
       "name": "taste-skill",
-      "description": "tasteskill v2: art direction for coding agents, with a library of researched directions, real pictures from open collections and a real-browser inspector. Also image-generation, redesign and style skills.",
+      "description": "Taste Skill v2: art direction for coding agents, with researched design directions, reference images, browser inspection, image generation, redesign, and style skills.",
       "version": "2.0.0",
-      "source": "./",
+      "source": {
+        "source": "github",
+        "repo": "osa822630-droid/taste-skill",
+        "ref": "main"
+      },
       "author": {
         "name": "leonxlnx",
         "email": "hello@tasteskill.dev"
